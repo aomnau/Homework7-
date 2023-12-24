@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <input type="checkbox"  id="chk" aria-hidden="true">
+        <div class="photo">
+            <form>
+                <div class="click">
+            <label for="chk" aria-hidden="true" ><h1>Click to Login</h1></label>
+        </div>
+            <img class="pht" src="pngegg.png" alt="">
+        </form>
+        </div>
+        <div class="login">
+            <div class="click">
+            <label for="chk" aria-hidden="true" ><h1>LOGIN</h1></label>
+        </div>
+            <form class="login-form">
+                 <label for="username">Username</label>
+                 <input type="text" id="username">
+                 <label for="password">Password</label>
+                 <input type="password" id="password">
+              <select name="role" id="role">
+                 <option value="" selected disabled>Select Role</option>
+                 <option value="buyer">Buyer</option>
+                 <option value="seller">Seller</option>
+                 <option value="visitor">Visitor</option>
+               </select>
+                <button type="submit" value="login" class="submit-button">Login</button>
+                <p style="color: white;"> username: "aommy", password: "aom1234"</p>
+                <p style="color: white;">username: "aomnau", password: "aom567"</p>
+        </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
